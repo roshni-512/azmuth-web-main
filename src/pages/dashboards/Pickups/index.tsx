@@ -1,9 +1,9 @@
 import React from 'react'
 
-import AllDataTable from 'src/views/pages/Cossigment/AllDataTable'
-import NewDataconssigment from 'src/views/pages/Cossigment/NewDataconssigment/NewDataconssigment'
-import PickupconssigmentTable from 'src/views/pages/Cossigment/Pickups/PickupconssigmentTable'
-import ReadyToShipTable from 'src/views/pages/Cossigment/Readytoship/ReadyToShipTable'
+import AllDataTable from '../../../views/pages/consignment/AllDataTable'
+import NewDataconssigment from '../../../views/pages/consignment/NewDataconssigment/NewDataconssigment'
+import PickupconssigmentTable from '../../../views/pages/consignment/Pickups/PickupconssigmentTable'
+import ReadyToShipTable from '../../../views/pages/consignment/Readytoship/ReadyToShipTable'
 
 const index = () => {
   return (

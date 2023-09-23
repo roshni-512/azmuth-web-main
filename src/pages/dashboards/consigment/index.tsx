@@ -8,7 +8,7 @@ import RtoTavle3 from 'src/views/pages/overview/Rto/RtoTavle3'
 import RtoTable4 from 'src/views/pages/overview/Rto/RtoTable4'
 import RtoTable5 from 'src/views/pages/overview/Rto/RtoTable5'
 import RtoTable6 from 'src/views/pages/overview/Rto/RtoTable6'
-import AllDataTable from 'src/views/pages/Cossigment/AllDataTable'
+import AllDataTable from '../../../views/pages/consignment/AllDataTable'
 
 const Overview = () => {
   return (

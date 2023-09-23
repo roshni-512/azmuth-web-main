@@ -1,5 +1,3 @@
-// ** Type import
-import { title } from 'process'
 import { VerticalNavItemsType } from 'src/@core/layouts/types'
 
 const navigation = (): VerticalNavItemsType => {
@@ -44,36 +42,36 @@ const navigation = (): VerticalNavItemsType => {
       ]
     },
     {
-      title: 'Cossignment',
+      title: 'Consignment',
       icon: 'tabler:table',
       children: [
         {
           title: 'All',
-          path: '/dashboards/AllTableConsigment'
+          path: '/consignment'
         },
         {
           title: 'New',
-          path: '/dashboards/NewDataConssigment'
+          path: '/consignment/new'
         },
         {
           title: 'Ready To Ship',
-          path: '/dashboards/Readytoship'
+          path: '/consignment/ship'
         },
         {
           title: 'Pickups',
-          path: '/dashboards/Pickups'
+          path: '/consignment/pickup'
         },
         {
           title: 'In Transit',
-          path: '/dashboards/InTransitconssigment'
+          path: '/consignment/intransit'
         },
         {
           title: 'Delivered',
-          path: '/dashboards/Deliveredconssigment'
+          path: '/consignment/delivered'
         },
         {
           title: 'RTO',
-          path: '/dashboards/ConssigmentRTO'
+          path: '/consignment/rto'
         }
       ]
     },

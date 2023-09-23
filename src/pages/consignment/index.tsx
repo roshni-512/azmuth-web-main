@@ -1,11 +1,13 @@
 import React from 'react'
 
-import AllDataTable from '../../../views/pages/consignment/AllDataTable'
+import AllDataTable from '../../views/pages/consignment/AllDataTable'
 import { Box } from "@mui/material";
+import CommonTab from "../../views/pages/consignment/CommonTab";
 
 const AllTableConsignment = () => {
   return (
-    <Box sx={{ marginTop: '50px' }}>
+    <Box>
+      <CommonTab active={'All'} />
       <AllDataTable />
     </Box>
   )

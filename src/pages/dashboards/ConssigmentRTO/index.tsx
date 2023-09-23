@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ConssigmentRTOTable from 'src/views/pages/Cossigment/RTO/ConssigmentRTOTable'
+import ConssigmentRTOTable from '../../../views/pages/consignment/RTO/ConssigmentRTOTable'
 
 const index = () => {
   return (

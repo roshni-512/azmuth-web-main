@@ -1,5 +1,5 @@
 import React from 'react'
-import IntransitTable from 'src/views/pages/Cossigment/InTansit/IntransitTable'
+import IntransitTable from '../../../views/pages/consignment/InTansit/IntransitTable'
 
 const index = () => {
   return (
